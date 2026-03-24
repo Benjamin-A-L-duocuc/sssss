@@ -14,7 +14,7 @@ public class libroService {
         return libroRepo.guardar(libro);
     }
 
-    public List<libro> show(libro libro){
+    public List<libro> show(){
         return libroRepo.returnAll();
     }
 
